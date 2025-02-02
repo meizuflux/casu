@@ -1,0 +1,16 @@
+[project]
+name = "casu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "meizuflux", email = "hello@meizuflux.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "muffin>=0.102.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
